@@ -1,0 +1,41 @@
+@import "normalize.scss";
+@import "variables/index.scss";
+
+
+
+@font-face {
+	font-family: 'ABCWhyte Book';
+	src: url("/ABCWhyte-Book.woff") format("woff"), url("/themes/custom/okta_www_theme/fonts/ABCWhyte/ABCWhyte-Book.woff2") format("woff2"), url("/themes/custom/okta_www_theme/fonts/ABCWhyte/ABCWhyte-Book.otf") format("opentype");
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'ABCWhyte Medium';
+	src: url("/ABCWhyte-Medium.woff") format("woff"), url("/themes/custom/okta_www_theme/fonts/ABCWhyte/ABCWhyte-Medium.woff2") format("woff2"), url("/themes/custom/okta_www_theme/fonts/ABCWhyte/ABCWhyte-Medium.otf") format("opentype");
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'Noto Sans Medium';
+	src: url("/NotoSansJP-Medium.otf") format("opentype");
+	font-display: swap
+}
+
+@font-face {
+	font-family: 'Noto Sans Regular';
+	src: url("/NotoSansJP-Regular.otf") format("opentype");
+	font-display: swap
+}
+
+p {
+    color: $main;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+       
+}  
+
+.hero-section_Header {
+    color: $main;
+    @include section-header;
+}

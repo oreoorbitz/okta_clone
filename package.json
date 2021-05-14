@@ -1,0 +1,32 @@
+{
+  "name": "okta_clone",
+  "version": "1.0.0",
+  "description": "A clone of okta's landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oreoorbitz/okta_clone.git"
+  },
+  "author": "Orion Holmes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oreoorbitz/okta_clone/issues"
+  },
+  "homepage": "https://github.com/oreoorbitz/okta_clone#readme",
+  "devDependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-beautify": "^3.0.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "node-sass": "^6.0.0",
+    "postcss": "^8.2.15"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  }
+}

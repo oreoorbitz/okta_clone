@@ -1,0 +1,12 @@
+$section-header-font: "ABCWhyte Book","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+$section-header-size: 3rem;
+$section-header-line-height: 120%;
+$section-header-font-weight: 400;
+$section-header-font-margin: 1rem;
+
+@mixin section-header {
+    font-size: $section-header-size;
+    font-weight: $section-header-font-weight;
+    line-height: $section-header-line-height;
+    margin-bottom: $section-header-font-margin;
+}
