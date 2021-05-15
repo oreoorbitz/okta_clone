@@ -26,7 +26,7 @@ const buildCss = () => {
   };
 
 gulp.task('sass:watch', function () {
-    gulp.watch('./src/scss/*.scss', buildCss);
+    gulp.watch('./src/scss/**/*.scss', buildCss);
   });
 
 
